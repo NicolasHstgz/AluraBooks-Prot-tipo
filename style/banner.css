@@ -34,3 +34,37 @@
   background-repeat: no-repeat;
   background-position: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .banner {
+    padding: 5em 2.5em;
+  }
+
+  .banner-tittle {
+    font-size: 36px;
+  }
+
+  .banner-search {
+    width: 50%;
+  }
+
+  .banner-search::placeholder {
+    background-position: 6em;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+
+  .banner {
+    padding: 6em 0;
+  }
+
+  .banner-search {
+    width: 35%;
+  }
+
+  .banner-search::placeholder {
+    background-position: 9.5em;
+  }
+}

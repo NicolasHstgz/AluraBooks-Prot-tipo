@@ -28,3 +28,33 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .topics {
+    padding: 3em;
+  }
+
+  .topics-tittle {
+    font-size: 24px;
+  }
+
+  .topics-list li > a {
+    font-size: 20px;
+  }
+
+  .topics-list li {
+    transition: all .3s;
+  }
+
+  .topics-list li:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media screen and (min-width: 1728px) {
+
+  .topics {
+    padding: 3em 30vw;
+  }
+}
